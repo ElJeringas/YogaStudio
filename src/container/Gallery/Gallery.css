@@ -1,0 +1,49 @@
+
+.flex__center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.photos__grid {
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+  }
+
+  .gallery__image-icon{
+    position:absolute;
+    color: #0d0c0c;
+    font-size: 2rem;
+    opacity: 0;
+    transition: .5s ease;
+    cursor: pointer;
+}
+
+.photos__card {
+    position: relative;
+/*     min-width: 201px;
+    height: 237px; */
+    margin-right: 2rem;
+}
+
+.photos__card img {
+    object-fit: cover;
+    opacity: 1;
+    transition: .5s ease;
+}
+
+.photos__card:hover img {
+    opacity: .35;
+}
+
+.photos__card:hover .gallery__image-icon {
+    opacity: 1;
+}
+
+@media screen and (width<600px) {
+    .photos__grid {
+        grid-template-columns: repeat(1, 1fr);
+      }
+}
