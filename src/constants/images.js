@@ -10,7 +10,7 @@ import icon01 from '../assets/icon-1.png';
 import icon02 from '../assets/icon-2.png';
 import icon03 from '../assets/icon-3.png';
 import icon04 from '../assets/icon-4.png';
-import logo from '../assets/logo.png';
+import logo from '../assets/logo.jpeg';
 import photos01 from '../assets/photos-1.jpg';
 import photos02 from '../assets/photos-2.jpg';
 import photos03 from '../assets/photos-3.jpg';

@@ -45,5 +45,9 @@
 @media screen and (width<600px) {
     .photos__grid {
         grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+        align-content: center;
+        padding-right: 0;
+        margin-right: 0;
       }
 }

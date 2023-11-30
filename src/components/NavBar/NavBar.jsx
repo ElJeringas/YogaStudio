@@ -5,7 +5,7 @@ const NavBar = () => {
       <nav>
         <div className='nav__logo'>
           <img src={images.logo} alt='logo'/>
-          <span>Gabriela Yoga</span>
+          {/* <span>Gabriela Yoga</span> */}
         </div>
         <ul className='nav__links'>
           <li className='links'><a href='#home'>Home</a></li>
