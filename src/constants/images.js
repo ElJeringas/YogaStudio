@@ -24,7 +24,11 @@ import stories03 from '../assets/stories-3.jpg';
 import why from '../assets/why.jpg';
 import about from '../assets/aboutMe.png'
 import signature from '../assets/signature.png';
-
+import home from '../assets/whatsapp/home.jpg';
+import gallery01 from '../assets/gallery01.jpeg';
+import gallery02 from '../assets/gallery02.jpeg';
+import gallery03 from '../assets/gallery03.jpeg';
+import gallery04 from '../assets/gallery04.jpeg';
 export default {
     banner,
     classes01,
@@ -51,5 +55,10 @@ export default {
     stories03,
     why,
     about,
-    signature
+    signature,
+    home,
+    gallery01,
+    gallery02,
+    gallery03,
+    gallery04,
 };

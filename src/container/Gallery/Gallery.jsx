@@ -9,21 +9,21 @@ const Gallery = () => {
       <h2 className='section__header'>Mira mis ultimos Post de Instagram</h2>
       <div className='photos__grid'>
         <div className='flex__center photos__card'>
-          <img src={images.photos01}/>
+          <img src={images.gallery01}/>
           <BsInstagram className='gallery__image-icon'/>
         </div>
         <div className='flex__center photos__card'>
-          <img src={images.photos02}/>
+          <img src={images.gallery02}/>
           <BsInstagram className='gallery__image-icon'/>
         </div>
         <div className='flex__center photos__card'>
-          <img src={images.photos03}/>
+          <img src={images.gallery03}/>
           <BsInstagram className='gallery__image-icon'/>
         </div>
-{/*         <div className='flex__center photos__card'>
-          <img src={images.photos04}/>
+        <div className='flex__center photos__card'>
+          <img src={images.gallery04}/>
           <BsInstagram className='gallery__image-icon'/>
-        </div> */}
+        </div>
       </div>
     </section>
   )

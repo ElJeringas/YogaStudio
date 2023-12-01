@@ -9,7 +9,7 @@
     margin-top: 4rem;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 1rem;
+    gap: 2rem;
   }
 
   .gallery__image-icon{
@@ -23,9 +23,14 @@
 
 .photos__card {
     position: relative;
-/*     min-width: 201px;
-    height: 237px; */
+    min-width: 301px;
+    height: 447px;
     margin-right: 2rem;
+}
+
+.photos__card img{
+    width: 100%;
+    height: 100%;
 }
 
 .photos__card img {

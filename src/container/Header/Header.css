@@ -35,6 +35,14 @@ header {
     border-radius: 5rem;
     cursor: pointer;
     font-family: var(--font-base);
+    transition: 0.5 ease;
+  }
+
+  
+  .btn:hover{
+
+    color: var(--text-dark);
+    background-color: var(--color-crimson);
   }
 
   .header__container {
@@ -59,9 +67,11 @@ header {
     color: var(--text-dark);
     font-family: var(--font-base);
     letter-spacing: 0.01em;
-    line-height: 90px;
-
+    line-height: 70px;
   }
+.header__content span{ 
+  font-family: var(--font-alt-hand);
+}
   
   .header__content h2 {
     margin-bottom: 2rem;

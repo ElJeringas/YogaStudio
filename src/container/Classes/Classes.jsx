@@ -16,7 +16,8 @@ const Classes = () => {
             <h4>Seguimiento Individual</h4>
             <p>Orientacion Espiritual</p>
             <p>Charlas y Eventos</p>
-            <button className='btn membership__btn'>Empezemos</button>
+            <br/><br/><br/>
+            <a type='button' href='https://api.whatsapp.com/send/?phone=593996819305&text&type=phone_number&app_absent=0' target="_blank" rel="noopener noreferrer" className='btn membership__btn' style={{marginTop:'3rem'}}>Empezemos</a>
           </div>
           <div className='membership__card'>
             <h4 className='membership__card-title'>Sesiones Quincenales</h4>
@@ -26,8 +27,8 @@ const Classes = () => {
             <p>Clases grupales</p>
             <p>Orientacion Espiritual</p>
             <p>Charlas y Eventos</p>
-            <br/><br/>
-            <button className='btn membership__btn'>Empezemos</button>
+            <br/><br/><br/>
+            <a type='button' href='https://api.whatsapp.com/send/?phone=593996819305&text&type=phone_number&app_absent=0' target="_blank" rel="noopener noreferrer" className='btn membership__btn' style={{marginTop:'3rem'}}>Empezemos</a>
           </div>
           <div className='membership__card'>
             <h4 className='membership__card-title'>Sesiones Diarias</h4>
@@ -37,8 +38,8 @@ const Classes = () => {
             <p>Clases grupales</p>
             <p>Orientacion Espiritual</p>
             <p>Sin seguimiento Individual</p>
-            <br/><br/>
-            <button className='btn membership__btn'>Empezemos</button>
+            <br/><br/><br/>
+            <a type='button' href='https://api.whatsapp.com/send/?phone=593996819305&text&type=phone_number&app_absent=0' target="_blank" rel="noopener noreferrer" className='btn membership__btn' style={{marginTop:'3rem'}}>Empezemos</a>
           </div>
         </div>
       </div>
