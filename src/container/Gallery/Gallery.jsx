@@ -24,6 +24,14 @@ const Gallery = () => {
           <img src={images.gallery04}/>
           <BsInstagram className='gallery__image-icon'/>
         </div>
+        <div className='flex__center photos__card'>
+          <img src={images.gallery04}/>
+          <BsInstagram className='gallery__image-icon'/>
+        </div>
+        <div className='flex__center photos__card'>
+          <img src={images.gallery04}/>
+          <BsInstagram className='gallery__image-icon'/>
+        </div>
       </div>
     </section>
   )

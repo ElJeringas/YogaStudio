@@ -52,7 +52,7 @@ const Why = () => {
         </ul>
       </div>
       <div className='why__image'>
-        <img src={images.why} alt='why'/>
+        <img src={images.home02} alt='why'/>
       </div>
     </section>
   )

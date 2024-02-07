@@ -105,4 +105,13 @@ header {
       justify-items: center;
     }
 
+    .header__image {
+      justify-content: center;
+    }
+
+    .header__image img {
+      max-width: 20rem;
+      margin: 0;
+    }
+  
   }
