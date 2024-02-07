@@ -57,7 +57,10 @@ header {
   }
 
   .header__image {
+    display: grid;
     grid-area: 1/1/2/2;
+    align-items: center;
+    padding-bottom: 2rem;
   }
   
   .header__content h1 {
@@ -96,7 +99,7 @@ header {
     }
 
     .header__content {
-      padding: 2rem 0;
+      padding:0;
       display: grid;
       text-align: center;
       align-items: center;
