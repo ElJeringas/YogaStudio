@@ -10,6 +10,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
+    align-items: center;
   }
 
   .gallery__image-icon{
@@ -37,6 +38,8 @@
     object-fit: cover;
     opacity: 1;
     transition: .5s ease;
+    padding: 0;
+    margin: 0;
 }
 
 .photos__card:hover img {
@@ -49,10 +52,12 @@
 
 @media screen and (width<600px) {
     .photos__grid {
+        display: grid;
         grid-template-columns: repeat(1, 1fr);
         align-items: center;
         align-content: center;
         padding-right: 0;
         margin-right: 0;
+        align-items: center;
       }
 }

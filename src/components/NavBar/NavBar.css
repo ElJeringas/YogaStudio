@@ -50,6 +50,11 @@ a:hover {
     .nav__links {
         display: none;
       }
+
+      nav {
+        align-items: center;
+        justify-content: center;
+    }
 }
 
 @media screen and (width<750px) {
