@@ -14,9 +14,9 @@ const Hero = () => {
         </div>
         <div className='hero__card'>
           <span><img src={images.icon02} alt='hero'/></span>
-          <h4>Equilibrio cuerpo y mente</h4>
+          <h4>Equilibrio cuerpo, mente y espíritu</h4>
           <p>
-          El yoga cultiva un cuerpo fuerte y flexible mientras nutre la calma interior.
+          Te acompaño a recordar que la salud eres tú a través de la unión sagrada del cuerpo, la mente y el espíritu.
           </p>
         </div>
         <div className='hero__card'>
@@ -24,11 +24,12 @@ const Hero = () => {
           <h4>Práctica de Meditación</h4>
           <p>
           Descubre la serenidad interior y la atención plena mientras cultivas una conexión profunda con el momento presente.     </p>   </div>
-        <div className='hero__card'>
+{/*         <div className='hero__card'>
           <span><img src={images.icon04} alt='hero'/></span>
           <h4>Cuidado personal</h4>
           <p>
-          Descubre el poder transformador del autocuidado a través del yoga y disfruta de momentos de tranquilidad y atención plena.   </p>     </div>
+          Descubre el poder transformador del autocuidado a través del yoga y disfruta de momentos de tranquilidad y atención plena.   </p>
+        </div> */}
       </div>
     </section>
   )

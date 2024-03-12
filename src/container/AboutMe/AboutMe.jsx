@@ -9,16 +9,14 @@ const AboutMe = () => {
           <img src={images.about} alt='about me'/>
         </div>
         <div className='about__content'>
-          <h2 className="about__header">🌿 Sobre Mí: <br/><strong>Yoga Transformador</strong></h2>
+          <h2 className="about__header">🌿 ¿Quién soy yo?: <br/><strong>Yoga Transformador</strong></h2>
           <p>
-          ¡Hola! Soy Gaby, una apasionada instructora de yoga dedicada a guiar a las personas en su viaje hacia el bienestar a través de la práctica transformadora del yoga.<br/></p>
-          <p>
-          <strong>Mi Viaje: </strong>🧘🏻‍♀️<br/><br/>
-          Mi amor por el yoga comenzó como una exploración personal de autodescubrimiento y equilibrio. En medio del ajetreo de la vida, el yoga se convirtió en mi santuario: un espacio para respirar, moverme y reconectar con mi ser interior. A lo largo de los años de práctica, he encontrado no solo fuerza física sino también una profunda sensación de paz y atención plena.
+          {/* <strong>¿Quién soy yo? </strong>🧘🏻‍♀️<br/><br/> */}
+          En mis múltiples intentos por definirme he llegado a la conclusión de que cualquier adjetivo que me ponga encima me limita de la posibilidad de cambiar y por ende de la posibilidad de expandirme ✨🫀<br/> <br/> Pero ahora necesito presentarme así que aquí voy… intentando no cortarme las alas que me he estado dejando crecer por algunos años 🌱<br/><br/> ¿Quién soy? Mi nombre es Gabriela, soy psicóloga y aspirante espiritual. Actualmente me encuentro transitando y experimentando la vida a través de la filosofía del yoga 🧘🏻‍♀  Desde el amor comparto esta poderosa herramienta para que podamos recorrer juntos el hermoso camino de la sanación (unión). Una invitación a llevar una vida plena, consciente y armoniosa; reconociendo el amor como único medio para lograrlo ♥
           </p>
           <p>
           <strong>Mi Estilo:</strong> ☀️<br/><br/>
-          Con experiencia en <strong>Medellin, Colombia</strong>, mis clases combinan elementos de Vinyasa, Hatha o Yin para crear una experiencia holística y accesible. A través del movimiento consciente, la respiración y la meditación, trabajamos juntas para cultivar fuerza, flexibilidad y una sensación de calma.
+          El yoga transformó mi vida y puede transformar la tuya también. Mis clases son basadas en la tradición de Hatha Yoga Sivananda, conocimiento que adquirí tras un año de vivir en Sivananda ashram, Colombia.
           </p>
           <p>
           <strong>Únete a este viaje:</strong> 🌎<br/><br/>

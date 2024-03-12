@@ -16,7 +16,7 @@
     justify-content: center;
     width: 75px;
     aspect-ratio: 1;
-    background-color: var(--primary-color-dark);
+    background-color: var(--color-crimson);
     border-radius: 100%;
   }
   

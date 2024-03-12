@@ -8,6 +8,7 @@
     max-width: 600px;
     margin: auto;
     align-items: center;
+    border-radius: 20px;
   }
   
   .why__content .section__header {
@@ -73,7 +74,7 @@ text-align: justify;
 
   ul{
     display: grid;
-    text-align: center;
+    text-align: left;
     justify-items:baseline;
   }
   .section__container{
