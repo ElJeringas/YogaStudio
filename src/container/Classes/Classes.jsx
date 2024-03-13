@@ -23,27 +23,25 @@ const Classes = () => {
           <div className='membership__card'>
             <h4 className='membership__card-title'>Sesiones Diarias</h4>
             <h2><sup>$</sup>5</h2>
-            <h3><strong>Por Sesión</strong></h3>
-            <h4>Acceso a todo el contenido</h4>
+            <p><sup>Por Sesión</sup></p>
+{/*             <h4>Acceso a todo el contenido</h4>
             <p>Clases grupales</p>
             <p>Orientacion Espiritual</p>
-            <p>Seguimiento Individual</p>
-            <a type='button' href='https://api.whatsapp.com/send/?phone=593996819305&text&type=phone_number&app_absent=0' target="_blank" rel="noopener noreferrer" className='btn membership__btn' style={{marginTop:'3rem'}}>Empezemos</a>
+            <p>Seguimiento Individual</p> */}
+            <a type='button' href='https://api.whatsapp.com/send/?phone=593996819305&text&type=phone_number&app_absent=0' target="_blank" rel="noopener noreferrer" className='btn membership__btn'>Empezemos</a>
           </div>
 
           <div className='membership__card'>
             <h4 className='membership__card-title'>Sesiones Online</h4>
             <h2><sup>$</sup>5</h2>
-            <p>Clases virtuales</p>
-            <p>Terapia online</p>
-            <br/>
-            <a type='button' href='https://api.whatsapp.com/send/?phone=593996819305&text&type=phone_number&app_absent=0' target="_blank" rel="noopener noreferrer" className='btn membership__btn' style={{marginTop:'3rem'}}>Empezemos</a>
+            <p><sup>Por Sesión</sup></p>
+            <a type='button' href='https://api.whatsapp.com/send/?phone=593996819305&text&type=phone_number&app_absent=0' target="_blank" rel="noopener noreferrer" className='btn membership__btn'>Empezemos</a>
           </div>
 
           <div className='membership__card'>
             <h4 className='membership__card-title'>Conoce mas tarifas en:</h4>
             <h2>Viva Conciente</h2>
-            <a type='button' href='https://api.whatsapp.com/send/?phone=593996819305&text&type=phone_number&app_absent=0' target="_blank" rel="noopener noreferrer" className='btn membership__btn' style={{marginTop:'3rem'}}>Contactos</a>
+            <a type='button' href='https://api.whatsapp.com/send/?phone=593996819305&text&type=phone_number&app_absent=0' target="_blank" rel="noopener noreferrer" className='btn membership__btn'>Contactos</a>
           </div>
           <div className='membership__card'>
             <h4 className='membership__card-title'>Descarga los horarios:</h4>

@@ -18,7 +18,7 @@ const Gallery = () => {
         </div>
         <div className='flex__center photos__card'>
           <img src={images.gallery03}/>
-          <BsInstagram className='gallery__image-icon'/>
+              <BsInstagram className='gallery__image-icon'/>
         </div>
 {/*         <div className='flex__center photos__card'>
           <img src={images.gallery04}/>
