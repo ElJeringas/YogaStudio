@@ -44,7 +44,7 @@
   }
 
   .banner__image-icon:hover{
-    color: #fafafa;
+    color: var(--color-crimson);
     transition: 0.4s ease;
   }
 
@@ -62,7 +62,7 @@
   
     .banner__image-icon:hover{
       
-      color: var(--color-gray);
+      color: var(--color-crimson);
       transition: 0.4s ease;
     }
 
@@ -71,7 +71,7 @@
     }
 
     .banner__card :hover{
-      color: var(--color-gray);
+      color:var(--color-crimson);
       transition: 0.4s ease;
     }
     .banner .section__header h2{
