@@ -2,7 +2,7 @@
 
 .banner {
   padding: 5rem 0;
-  background-image: linear-gradient(to right, var(--primary-color), transparent), url(assets/46-banner.png);
+  background-image: linear-gradient(to right, var(--primary-color), transparent);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -17,8 +17,8 @@
   .banner__header {
     margin-bottom: 1rem;
     font-size: 3rem;
-    font-weight: 300;
-    color: var(--color-gray);
+    font-weight: 400;
+    color: var(--color-black);
     font-family: var(--font-hand);
     letter-spacing: 0.03em;
     text-align: center;
@@ -27,11 +27,11 @@
     margin-bottom: 1rem;
     font-size: 3rem;
     font-weight: 500;
-    color: var(--white);
+    color: var(--color-white);
   }
   
   .banner__card p {
-    color: var(--color-black);
+    color: var(--color-white);
     font-family: var(--font-base);
     font-size: 1.5rem;
     font-weight: 500;
@@ -62,7 +62,7 @@
   
     .banner__image-icon:hover{
       
-      color: var(--color-crimson);
+      color: var(--color-golden);
       transition: 0.4s ease;
     }
 
@@ -71,7 +71,7 @@
     }
 
     .banner__card :hover{
-      color:var(--color-crimson);
+      color:var(--color-golden);
       transition: 0.4s ease;
     }
     .banner .section__header h2{

@@ -26,7 +26,6 @@
     position: relative;
     min-width: 301px;
     height: 447px;
-    margin-right: 2rem;
 }
 
 .photos__card img{
@@ -54,10 +53,5 @@
     .photos__grid {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        align-items: center;
-        align-content: center;
-        padding-right: 0;
-        margin-right: 0;
-        align-items: center;
-      }
+    }
 }
