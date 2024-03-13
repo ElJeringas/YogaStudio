@@ -18,11 +18,6 @@ const AboutMe = () => {
           <strong>Mi Estilo:</strong> ☀️<br/><br/>
           El yoga transformó mi vida y puede transformar la tuya también. Mis clases son basadas en la tradición de Hatha Yoga Sivananda, conocimiento que adquirí tras un año de vivir en Sivananda ashram, Colombia.
           </p>
-{/*           <p>
-          <strong>Únete a este viaje:</strong> 🌎<br/><br/>
-           Ya sea que busques un flujo desafiante, un momento de quietud o simplemente un respiro de las demandas de la vida cotidiana, te invito a unirte a mí en la esterilla. Embárcate en este viaje transformador juntas, abrazando el poder del yoga para traer equilibrio, alegría y vitalidad a nuestras vidas.
-           <br/><br/>
-          </p> */}
           <p><strong>ॐ Om</strong></p>
 
           <div className='about__content-sign'>
