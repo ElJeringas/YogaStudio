@@ -5,13 +5,14 @@ const Hero = () => {
   return (
     <section className='hero' id='hero'>
       <div className='section__container hero__container'>
-        <div className='hero__card'>
-          <span><img src={images.icon01} alt='hero'/></span>
-          <h4>Estilo de vida saludable</h4>
+      <div className='hero__card'>
+          <span><img src={images.icon03} alt='hero'/></span>
+          <h4>Psicología Védica</h4>
           <p>
-          Abraza un estilo de vida saludable a través del poder transformador del yoga y cultiva la vitalidad física y la paz interior.
+          La psicología védica es una disciplina que se basa en las antiguas enseñanzas de la India conocidas como los Vedas. Se centra en comprender la mente humana, las emociones y el comportamiento a través de la lente de la filosofía védica y las prácticas espirituales.
           </p>
         </div>
+
         <div className='hero__card'>
           <span><img src={images.icon02} alt='hero'/></span>
           <h4>Equilibrio cuerpo, mente y espíritu</h4>
@@ -20,10 +21,12 @@ const Hero = () => {
           </p>
         </div>
         <div className='hero__card'>
-          <span><img src={images.icon03} alt='hero'/></span>
-          <h4>Práctica de Meditación</h4>
+          <span><img src={images.icon01} alt='hero'/></span>
+          <h4>Estilo de vida saludable</h4>
           <p>
-          Descubre la serenidad interior y la atención plena mientras cultivas una conexión profunda con el momento presente.     </p>   </div>
+          Abraza un estilo de vida saludable a través del poder transformador del yoga y cultiva la vitalidad física y la paz interior.
+          </p>
+        </div>
 {/*         <div className='hero__card'>
           <span><img src={images.icon04} alt='hero'/></span>
           <h4>Cuidado personal</h4>

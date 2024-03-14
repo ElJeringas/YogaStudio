@@ -6,7 +6,6 @@ import Why from './container/Why/Why'
 import Hero from './container/Hero/Hero'
 import Classes from './container/Classes/Classes'
 import Gallery from './container/Gallery/Gallery'
-import Footer from './container/Footer/Footer'
 import './App.css';
 import FindMe from './container/FindMe/FindMe'
 const App = () => {

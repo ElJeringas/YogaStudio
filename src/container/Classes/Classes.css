@@ -78,6 +78,14 @@
     color: var(--text-light);
     font-family: var(--font-base);
   }
+  .membership__card-sesions_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .membership__card-sesions{
+    margin: 15px 15px 0 15px;
+  }
   
   .membership__btn {
     width: calc(100% - 4rem);
@@ -112,6 +120,43 @@
       margin-right: 10px;
     }
   }
+  .more{
+    font-size: 1.2rem !important;
+    font-weight: 400 !important;
+    margin-bottom: 1rem;
+    color: var(--primary-black) !important;
+    letter-spacing: 0.09em;
+  }
+  .membership__card-more{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0.5rem;
+
+    .classes__image-icon{
+      font-size: 2rem;
+      cursor: pointer;
+      color: var(--primary-color);
+      transition: 500ms ease;
+    }
+    .classes__image-icon:hover{
+      color: var(--color-golden);
+    }
+
+    p{
+      font-size: 15px;
+      color: var(--primary-color);
+      font-weight: 800;
+      margin-left: 10px;
+      margin-bottom: 0;
+      transition: 500ms ease;
+    }
+
+    p:hover{
+        color: var(--color-golden);
+    }
+  }
+
 
   
   @media screen and (width < 600px) {
