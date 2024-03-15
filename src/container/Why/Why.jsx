@@ -7,7 +7,7 @@ const Why = () => {
     <section className='section__container why__container'>
       <div className='why__content'>
         <h2 className='section__header'>Por qué deberias practicar Yoga?</h2>
-        <p>Practicar yoga ofrece un enfoque holístico del bienestar, que abarca beneficios tanto físicos como mentales. A través de una serie de posturas, estiramientos y fuerza muscular. El yoga es una herramienta de autoconocimiento que ofrece un enfoque holístico del bienestar, abarcando beneficios tanto físicos como mentales. Sus aspectos meditativos fomentan la atención plena, reduciendo el estrés y la ansiedad al tiempo que promueven la conexión con la paz que ya somos</p>
+        <p>El yoga es una herramienta de autoconocimiento que ofrece un enfoque holístico del bienestar, abarcando beneficios tanto físicos como mentales. Sus aspectos meditativos fomentan la atención plena, reduciendo el estrés y la ansiedad al tiempo que promueven la conexión con la paz que ya somos</p>
         <ul>
           <li>
             <span>
